@@ -1,0 +1,107 @@
+---
+title: "R Cheatsheets"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r, comment = "", echo = FALSE, eval = FALSE}
+sheets <- list.files(path = "T:/Data\ Science/Resources/RStudio\ Cheatsheets/Sheets", full.names = TRUE)
+names <- list.files(path = "T:/Data\ Science/Resources/RStudio\ Cheatsheets/Sheets", full.names = FALSE)
+
+for (n in 1:length(names)) {
+        names[n] <- gsub(".pdf", "", names[n])
+}
+
+for (n in 1:length(sheets)) {
+        sheets[n] <- paste0("[",names[n],"](",sheets[n],")")
+}
+```
+
+### Getting Data
+
+[Data Import](T:/Data Science/Resources/RStudio Cheatsheets/Sheets/Data Import.pdf)
+
+### Exploring
+
+[Apply functions with purrr](T:/Data Science/Resources/RStudio Cheatsheets/Sheets/Apply functions with purrr.pdf)
+
+
+### Formatting
+
+[Dates and Times with lubridate](T:/Data Science/Resources/RStudio Cheatsheets/Sheets/Dates and Times with lubridate.pdf)
+
+[Regular Expressions](T:/Data Science/Resources/RStudio Cheatsheets/Sheets/Regular Expressions.pdf)
+
+[Strings with stringr](T:/Data Science/Resources/RStudio Cheatsheets/Sheets/Strings with stringr.pdf)
+
+[Spatial Manipulation with sf](T:/Data Science/Resources/RStudio Cheatsheets/Sheets/Spatial Manipulation with sf.pdf)
+
+[Factors with forcats](T:/Data Science/Resources/RStudio Cheatsheets/Sheets/Factors with forcats.pdf)
+
+### Transforming
+
+[Data Transformation with data.table](T:/Data Science/Resources/RStudio Cheatsheets/Sheets/Data Transformation with data.table.pdf)
+
+[Data Transformation with dplyr](T:/Data Science/Resources/RStudio Cheatsheets/Sheets/Data Transformation with dplyr.pdf)
+
+### Visualizing
+
+[Data Visualization with ggplot2](T:/Data Science/Resources/RStudio Cheatsheets/Sheets/Data Visualization with ggplot2.pdf)
+
+[Maps (interactive) with leaflet](T:/Data Science/Resources/RStudio Cheatsheets/Sheets/Maps (interactive) with leaflet.pdf)
+
+[Maps with cartography](T:/Data Science/Resources/RStudio Cheatsheets/Sheets/Maps with cartography.pdf)
+
+### Modelling
+
+[Modeling--Deep Learning with Keras](T:/Data Science/Resources/RStudio Cheatsheets/Sheets/Modeling--Deep Learning with Keras.pdf)
+
+[Modeling--Machine Learning with caret](T:/Data Science/Resources/RStudio Cheatsheets/Sheets/Modeling--Machine Learning with caret.pdf)
+
+### Interfacing
+
+[Shiny](T:/Data Science/Resources/RStudio Cheatsheets/Sheets/Shiny.pdf)
+
+### Markdown and LaTeX
+
+[LaTeX](T:/Data Science/Resources/RStudio Cheatsheets/Sheets/LaTeX.pdf)
+
+[R Markdown Reference Guide](T:/Data Science/Resources/RStudio Cheatsheets/Sheets/R Markdown Reference Guide.pdf)
+
+[R Markdown](T:/Data Science/Resources/RStudio Cheatsheets/Sheets/R Markdown.pdf)
+
+[RStudio IDE](T:/Data Science/Resources/RStudio Cheatsheets/Sheets/RStudio IDE.pdf)
+
+### General R
+
+[Syntax Comparisons](T:/Data Science/Resources/RStudio Cheatsheets/Sheets/Syntax Comparisons.pdf)
+
+[R--Advanced](T:/Data Science/Resources/RStudio Cheatsheets/Sheets/R--Advanced.pdf)
+
+[R--Basic](T:/Data Science/Resources/RStudio Cheatsheets/Sheets/R--Basic.pdf)
+
+### Other
+
+[Tidy Evaluation with rlang](T:/Data Science/Resources/RStudio Cheatsheets/Sheets/Tidy Evaluation with rlang.pdf)
+
+[Data Science in Spark with Sparklyr](T:/Data Science/Resources/RStudio Cheatsheets/Sheets/Data Science in Spark with Sparklyr.pdf)
+
+[Python with R and Reticulate](T:/Data Science/Resources/RStudio Cheatsheets/Sheets/Python with R and Reticulate.pdf)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

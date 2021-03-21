@@ -1,0 +1,110 @@
+---
+title: "R Cheatsheets"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r, comment = "", echo = FALSE, eval = FALSE}
+sheets <- list.files(path = "./Sheets", full.names = TRUE)
+names <- list.files(path = "./Sheets", full.names = FALSE)
+
+for (n in 1:length(names)) {
+        names[n] <- gsub(".pdf", "", names[n])
+}
+
+for (n in 1:length(sheets)) {
+        sheets[n] <- paste0("[",names[n],"](",sheets[n],")")
+}
+```
+
+### Getting Data
+
+[Data Import](./Sheets/Data Import.pdf)
+
+### Exploring
+
+[Apply functions with `purrr`](./Sheets/Apply functions with purrr.pdf)
+
+
+### Formatting
+
+[Dates and Times with `lubridate`](./Sheets/Dates and Times with lubridate.pdf)
+
+[Regular Expressions](./Sheets/Regular Expressions.pdf)
+
+[Strings with `stringr`](./Sheets/Strings with stringr.pdf)
+
+[Spatial Manipulation with `sf`](./Sheets/Spatial Manipulation with sf.pdf)
+
+[Factors with `forcats`](./Sheets/Factors with forcats.pdf)
+
+### Transforming
+
+[Data Transformation with `data.table`](./Sheets/Data Transformation with data.table.pdf)
+
+[Data Transformation with `dplyr`](./Sheets/Data Transformation with dplyr.pdf)
+
+### Visualizing
+
+[Tables with `kableExtra`](https://cran.r-project.org/web/packages/kableExtra/vignettes/awesome_table_in_html.html)
+
+[Data Visualization with `ggplot2`](./Sheets/Data Visualization with ggplot2.pdf)
+
+[Maps (interactive) with `leaflet`](./Sheets/Maps (interactive) with leaflet.pdf)
+
+[Maps with `cartography`](./Sheets/Maps with cartography.pdf)
+
+### Modelling
+
+[Modeling--Deep Learning with `keras`](./Sheets/Modeling--Deep Learning with Keras.pdf)
+
+[Modeling--Machine Learning with `caret`](./Sheets/Sheets/Modeling--Machine Learning with caret.pdf)
+
+### Interfacing
+
+[Web Apps with `shiny`](./Sheets/Shiny.pdf)
+
+### Markdown and LaTeX
+
+[LaTeX](./Sheets/LaTeX.pdf)
+
+[R Markdown Reference Guide](./Sheets/R Markdown Reference Guide.pdf)
+
+[R Markdown](./Sheets/R Markdown.pdf)
+
+
+### General R
+
+[Syntax Comparisons](./Sheets/Syntax Comparisons.pdf)
+
+[R--Advanced](./Sheets/R--Advanced.pdf)
+
+[R--Basic](./Sheets/R--Basic.pdf)
+
+[RStudio IDE](./Sheets/RStudio IDE.pdf)
+
+### Other
+
+[Tidy Evaluation with `rlang`](./Sheets/Tidy Evaluation with rlang.pdf)
+
+[Data Science in Spark with `sparklyr`](./Sheets/Data Science in Spark with Sparklyr.pdf)
+
+[Python with R and `reticulate`](./Sheets/Python with R and Reticulate.pdf)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
