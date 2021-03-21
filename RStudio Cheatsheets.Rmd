@@ -84,6 +84,12 @@ for (n in 1:length(sheets)) {
 
 [RStudio IDE](./Sheets/RStudio IDE.pdf)
 
+### Github
+
+[Github Workflow](./Personal/Git-Cheat-Sheet.lnk)
+
+[SSH Setup](./Personal/SSH.html)
+
 ### Other
 
 [Tidy Evaluation with `rlang`](./Sheets/Tidy Evaluation with rlang.pdf)

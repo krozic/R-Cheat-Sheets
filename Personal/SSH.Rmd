@@ -1,0 +1,28 @@
+---
+title: "SSH"
+output: html_document
+---
+
+Make your ssh key in git-bash:
+
+```{bash, eval = F}
+ssh-keygen -t rsa -C "your.email@email.com"
+#tell it where to save the file
+```
+
+Add the ssh with `ssh-add`. This makes it so you don't have to type in credentials everytime you push.
+
+```{bash, eval = F}
+ssh-add ~/.ssh/id_rsa
+```
+
+Add the .pub file to RStudio git/SVN.
+
+Add the contents of ~/.ssh/id.rsa.pub to github settings.
+
+Check that ssh-authentication worked:
+
+```{bash, eval = F}
+ssh -T git@github.com
+```
+
