@@ -59,7 +59,7 @@ for (n in 1:length(sheets)) {
 
 [Modeling--Deep Learning with `keras`](./Sheets/Modeling--Deep Learning with Keras.pdf)
 
-[Modeling--Machine Learning with `caret`](./Sheets/Sheets/Modeling--Machine Learning with caret.pdf)
+[Modeling--Machine Learning with `caret`](./Sheets/Modeling--Machine Learning with caret.pdf)
 
 ### Interfacing
 
