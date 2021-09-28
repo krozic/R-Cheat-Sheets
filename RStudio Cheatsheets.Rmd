@@ -3,6 +3,8 @@ title: "R Cheatsheets"
 output:
   html_document:
     df_print: paged
+    toc: TRUE
+    toc_depth: 2
 ---
 
 ```{r, comment = "", echo = FALSE, eval = FALSE}
@@ -18,9 +20,37 @@ for (n in 1:length(sheets)) {
 }
 ```
 
+## Github
+
+[Github Workflow](./Personal/Git-Cheat-Sheet.lnk)
+
+[Pro Git book](https://git-scm.com/book/en/v2)
+
+[SSH Setup](./Personal/SSH.html)
+
+## SQL
+
+[LearnSQL](./Sheets/SQL/learnsql.pdf)
+
+[SQLtutorial](./Sheets/SQL/sqltutorial.pdf)
+
+[DataQuest](./Sheets/SQL/dataquest.pdf)
+
+[WebsiteUp](./Sheets/SQL/websiteup.png)
+
+## R
+
+### Markdown and LaTeX
+
+[R Markdown](./Sheets/R Markdown.pdf)
+
+[LaTeX](./Sheets/LaTeX.pdf)
+
+[R Markdown Reference Guide](./Sheets/R Markdown Reference Guide.pdf)
+
 ### Getting Data
 
-[Data Import](./Sheets/Data Import.pdf)
+[Data Import and Handling with `tidyr`, `readr`, and `tibble`](./Sheets/Data Import.pdf)
 
 ### Exploring
 
@@ -65,15 +95,6 @@ for (n in 1:length(sheets)) {
 
 [Web Apps with `shiny`](./Sheets/Shiny.pdf)
 
-### Markdown and LaTeX
-
-[LaTeX](./Sheets/LaTeX.pdf)
-
-[R Markdown Reference Guide](./Sheets/R Markdown Reference Guide.pdf)
-
-[R Markdown](./Sheets/R Markdown.pdf)
-
-
 ### General R
 
 [Syntax Comparisons](./Sheets/Syntax Comparisons.pdf)
@@ -83,12 +104,6 @@ for (n in 1:length(sheets)) {
 [R--Basic](./Sheets/R--Basic.pdf)
 
 [RStudio IDE](./Sheets/RStudio IDE.pdf)
-
-### Github
-
-[Github Workflow](./Personal/Git-Cheat-Sheet.lnk)
-
-[SSH Setup](./Personal/SSH.html)
 
 ### Other
 
